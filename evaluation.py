@@ -86,7 +86,8 @@ def read_pred_file(filepath):
         img_file = lines[0].rstrip('\n\r')
         lines = lines[2:]
 
-    boxes = np.array(list(map(lambda x: [float(a) for a in x.rstrip('\r\n').split(' ')], lines))).astype('float')
+    boxes = np.array(list(map(lambda x: [float(a.rstrip('\r\n')) for a in x.rstrip('\r\n').split(' ')[:-1]], lines))).astype('float')
+
     return img_file.split('/')[-1], boxes
 
 
