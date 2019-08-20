@@ -1,6 +1,6 @@
 # WiderFace-Evaluation
 Python Evaluation Code for [Wider Face Dataset](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)，borrowed from wondervictor，fix the pyx compile issue
-
+add bbox_overlaps.py file，making it usable in windows
 
 ## Usage
 
