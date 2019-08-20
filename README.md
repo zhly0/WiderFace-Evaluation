@@ -1,5 +1,5 @@
 # WiderFace-Evaluation
-Python Evaluation Code for [Wider Face Dataset](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)
+Python Evaluation Code for [Wider Face Dataset](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)，borrowed from wondervictor，fix the pyx compile issue
 
 
 ## Usage
@@ -24,4 +24,4 @@ please issue
 
 ## Acknowledgements
 
-some code borrowed from Sergey Karayev
+code borrowed from  wondervictor
