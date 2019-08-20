@@ -29,7 +29,7 @@ F:\dataset\WIDER_val\WIDER_val\images\0--Parade/0_Parade_Parade_0_960.jpg
 ````
 where the first line is where the image is,the second line is the number of faces in the image,the other is x,y,w,h,confidence
 
-after get the result,use the code in this repo to evaluate the widerface.
+after get the result(the most direct use is use this file to generate txt https://github.com/deepinsight/insightface/blob/master/RetinaFace/test_widerface.py),use the code in this repo to evaluate the widerface.
 
 ## Usage
 
